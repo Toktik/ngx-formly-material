@@ -14,10 +14,8 @@ import { Subject } from 'rxjs/Subject';
       <ng-container matPrefix>
         <ng-container *ngTemplateOutlet="to.prefix"></ng-container>
       </ng-container>
-
-      <ng-container matSuffix>
-        <ng-container *ngTemplateOutlet="to.suffix"></ng-container>
-      </ng-container>
+      
+      <div *ngIf="to.suffix" matSuffix>{{ to.suffix }}</div>
 
       <!-- fix https://github.com/angular/material2/issues/7737 by setting id to null  -->
       <mat-error [id]="null">

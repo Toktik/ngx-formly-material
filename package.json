@@ -1,15 +1,50 @@
 {
-  "name": "@ngx-formly/material",
-  "version": "2.0.0-rc.49",
-  "license": "MIT",
-  "homepage": "https://github.com/formly-js/ngx-formly#readme",
+  "_from": "toktik/ngx-formly-material#master",
+  "_id": "@ngx-formly/material@2.0.0-rc.49",
+  "_inBundle": false,
+  "_integrity": "sha1-V0zeKvrTLXXsYYXlVnSGN2XZL2E=",
+  "_location": "/@ngx-formly/material",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@ngx-formly/material@git://github.com/toktik/ngx-formly-material.git#d52c7f1e75f3e1d71bdc13a78c1239319a23125f",
+    "name": "@ngx-formly/material",
+    "escapedName": "@ngx-formly%2fmaterial",
+    "scope": "@ngx-formly",
+    "rawSpec": "git://github.com/toktik/ngx-formly-material.git#d52c7f1e75f3e1d71bdc13a78c1239319a23125f",
+    "saveSpec": "git://github.com/toktik/ngx-formly-material.git#d52c7f1e75f3e1d71bdc13a78c1239319a23125f",
+    "fetchSpec": "git://github.com/toktik/ngx-formly-material.git",
+    "gitCommittish": "d52c7f1e75f3e1d71bdc13a78c1239319a23125f"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/toktik/ngx-formly-material.git#d52c7f1e75f3e1d71bdc13a78c1239319a23125f",
+  "_spec": "@ngx-formly/material@git://github.com/toktik/ngx-formly-material.git#d52c7f1e75f3e1d71bdc13a78c1239319a23125f",
+  "_where": "C:\\projects\\nereus-safety-portal",
+  "bugs": {
+    "url": "https://github.com/formly-js/ngx-formly/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "ngx-formly is an Angular 2 module which has a Components to help customize and render JavaScript/JSON configured forms. The formly-form Component and the FormlyConfig service are very powerful and bring unmatched maintainability to your application's forms.",
-  "keywords": ["angular", "forms", "ngx-formly", "formly", "angular 2", "angular 2 forms", "json forms", "form library", "dynamic-forms"],
+  "homepage": "https://github.com/formly-js/ngx-formly#readme",
+  "keywords": [
+    "angular",
+    "forms",
+    "ngx-formly",
+    "formly",
+    "angular 2",
+    "angular 2 forms",
+    "json forms",
+    "form library",
+    "dynamic-forms"
+  ],
+  "license": "MIT",
+  "name": "@ngx-formly/material",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/formly-js/ngx-formly.git"
   },
-  "bugs": {
-    "url": "https://github.com/formly-js/ngx-formly/issues"
-  }
+  "version": "2.0.0-rc.49"
 }

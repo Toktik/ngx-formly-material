@@ -26,7 +26,8 @@ export class SelectOption {
       [formlyAttributes]="field"
       [multiple]="to.multiple"
       (selectionChange)="to.change && to.change(field, formControl)"
-      [errorStateMatcher]="errorStateMatcher">
+      [errorStateMatcher]="errorStateMatcher"
+      [placeholder]="to.placeholder">
       <ng-container *ngFor="let item of selectOptions | async">
         <mat-optgroup *ngIf="item.group" label="{{item.label}}">
           <mat-option *ngFor="let child of item.group" [value]="child[valueProp]" [disabled]="child.disabled">
